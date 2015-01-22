@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+
+    </style>
+
+
+    <style name="MyCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="android:textColorPrimary">#FFF</item>    <!-- Text Color of Toolbar Title -->
+        <item name="android:textColorSecondary">#FFF</item>  <!-- Color of OverFlow Menu ( 3 DOTS icon )-->
+
+
+    </style>
+
+
+    <style name="MyCustomToolbarPopUpMenuTheme" parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="android:textColorPrimary">#000000</item>    <!-- text Color of OverFlowMenu Text -->
+        <item name="android:background">#F3E5F5</item>          <!-- Background of OverFlow Menu -->
+
+    </style>
+
+</resources>
